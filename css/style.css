@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #023e8a;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+    font-family: montserrat;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0096c7;
+}
+nav img{
+    width: 100px;
+}
+nav a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+.beneficios{
+    background-color: #0077b6;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #00b4d8;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
